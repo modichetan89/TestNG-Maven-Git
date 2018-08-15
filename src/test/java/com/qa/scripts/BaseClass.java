@@ -25,7 +25,7 @@ public class BaseClass {
 		String actual = driver.getTitle();
 		System.out.println(actual);
 		try{
-		Assert.assertEquals(actual, "GoogleTest");
+		Assert.assertEquals(actual, "Google");
 		}catch(Exception e){
 			System.out.println("Exception occured --> " +e);
 		}
