@@ -20,7 +20,7 @@ public class BaseClass {
 	driver.get("http://www.google.com");
 	}
 	
-	@Test(priority=2)
+	@Test(priority=2, enabled=false)
 	public void assertTitle(){
 		String actual = driver.getTitle();
 		System.out.println(actual);
