@@ -20,7 +20,7 @@ public class BaseClass {
 	driver.get("http://www.google.com");
 	}
 	//Commenting to pull into local
-	@Test(priority=2, enabled=false)
+	@Test(priority=2)
 	public void assertTitle(){
 		String actual = driver.getTitle();
 		System.out.println(actual);
